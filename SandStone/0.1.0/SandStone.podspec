@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kyleYang' => 'yangzychina@gmail.com' }
-  s.source           = { :git => 'https://gitlab.com/ssmodule/sandstone.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@gitlab.com:ssmodule/sandstone.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
@@ -53,6 +53,8 @@ TODO: Add long description of the pod here.
       core.dependency 'KINWebBrowser'
       core.dependency 'SVProgressHUD'
       core.dependency 'FSPagerView'
+      core.dependency 'IQKeyboardManagerSwift'
+
       #share sdk
       #ss.dependency 'mob_sharesdk'
       #ss.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
